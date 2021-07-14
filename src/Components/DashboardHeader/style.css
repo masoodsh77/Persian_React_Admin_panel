@@ -1,0 +1,10 @@
+.dashHeader {
+    height: 3.7rem;
+    background-color: #fff;
+    border-bottom: 2px solid lightgray;
+    font-family: 'yekan'
+}
+
+.username {
+    text-align: left !important;
+}

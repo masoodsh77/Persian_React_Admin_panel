@@ -1,0 +1,22 @@
+.Header{
+    background-color: #f7c900;
+    width: 100%;
+    height: 6rem;
+    font-family: 'yekan';
+}
+.HeaderSearchBar{
+    direction: ltr;
+}
+.HeaderSearchInput{
+    min-width: 13rem !important;
+    text-align: right !important;
+}
+.HeaderIcon{
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+.Header a{
+    color: #000;
+    text-decoration: none !important;
+}

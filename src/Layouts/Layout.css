@@ -1,0 +1,75 @@
+.layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    font-family: 'yekan';
+}
+
+.MainLayout {
+    width: 100%;
+    height: 91%;
+}
+
+.sideBar {
+    height: 100% !important;
+}
+
+.sideBar ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sideBar ul li {
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px lightgray solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sideBar ul li:hover {
+    background-color: #f7c900;
+    color: #000 !important;
+}
+
+.sideBar ul a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.ExitBtn ul li {
+    color: white;
+}
+
+.sideBar>.ExitBtn {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding-right: 20px;
+}
+
+.title {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.information {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
